@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <meta name="theme-color" content="#cf1235">
+    <title>guIAonco</title>
+    <link rel="icon" href="assets/guIAonco_logo_es.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="styles.css?v=20260601p">
+    <script defer src="app.js?v=20260601p"></script>
+  </head>
+  <body>
+    <header class="brand-flag">
+      <div class="flag-rail" aria-hidden="true"></div>
+      <div class="brand-panel">
+        <div class="brand-logo" id="brand-logo" role="img" aria-label="guIAonco, apoyando quienes cuidan"></div>
+        <h1 class="sr-only">guIAonco</h1>
+        <div class="language-switch" role="group" aria-label="Language">
+          <button class="lang-button" type="button" data-lang="en">EN</button>
+          <button class="lang-button" type="button" data-lang="es">ES</button>
+          <button class="lang-button is-active" type="button" data-lang="both">EN + ES</button>
+        </div>
+        <p class="app-tagline" id="app-tagline"></p>
+      </div>
+      <div class="flag-rail" aria-hidden="true"></div>
+    </header>
+
+    <main class="app-shell">
+      <section class="view" id="home-view">
+        <div class="module-grid" id="module-grid"></div>
+      </section>
+
+      <section class="view" id="screen-view" hidden>
+        <button class="back-button" type="button" data-action="home" id="back-button">Back</button>
+        <div id="screen-content"></div>
+      </section>
+    </main>
+  </body>
+</html>
