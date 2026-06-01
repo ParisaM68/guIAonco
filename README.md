@@ -1,0 +1,1 @@
+guIAonco is a bilingual English/Spanish prototype web app for healthcare workers learning breast cancer warning signs, risk factors, referral steps, patient education, and practice cases. It is a preliminary school project and would need clinical and translation review before real-world use.
